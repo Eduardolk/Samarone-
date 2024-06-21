@@ -1,1 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<header>
+    CADASTRE-SE
+</header>
+<body>
+    <div class="container">
+        <form>
+            <div class="section">
+                <div class="section-title">Dados de Login</div>
+                <label for="cpf">CPF: <span>Formato: xxx.xxx.xxx-xx</span></label>
+                <input type="text" id="cpf" name="cpf">
+                
+                <label for="email">E-mail:</label>
+                <div class="inline-group">
+                    <div>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <input type="email" id="email_confirm" name="email_confirm" placeholder="Confirmar">
+                    </div>
+                </div>
 
+                <label for="senha">Senha:</label>
+                <div class="inline-group">
+                    <div>
+                        <input type="password" id="senha" name="senha">
+                    </div>
+                    <div>
+                        <input type="password" id="senha_confirm" name="senha_confirm" placeholder="Confirmar">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Dados de Contato</div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+
+                <label for="nascimento">Nascimento: <span>Formato: xx/xx/xxxx</span></label>
+                <input type="text" id="nascimento" name="nascimento">
+
+                <label for="rg">RG:</label>
+                <input type="text" id="rg" name="rg">
+
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep">
+
+                <label for="endereço">Endereço:</label>
+                <input type="text" id="endereço" name="endereço">
+
+                <label for="numero">N°:</label>
+                <input type="text" id="numero" name="numero">
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro">
+
+                <label for="complemento">Complemento:</label>
+                <input type="text" id="complemento" name="complemento">
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="" disabled selected>Selecione</option>
+                    <!-- Add state options here -->
+                </select>
+
+                <label for="ddd_telefone">DDD+Telefone:</label>
+                <input type="text" id="ddd_telefone" name="ddd_telefone">
+
+                <label for="ddd_celular">DDD+Celular:</label>
+                <input type="text" id="ddd_celular" name="ddd_celular">
+            </div>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+                  </html>
